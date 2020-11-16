@@ -41,7 +41,7 @@ foldersRouter
         res
           .status(201)
           .location(path.posix.join(req.originalUrl, `/${folder.id}`))
-          .json(serializeFolder(folder))
+          .json(serializeFolders(folder))
       })
       .catch(next)
   })

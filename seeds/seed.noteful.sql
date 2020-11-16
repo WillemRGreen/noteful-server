@@ -9,9 +9,9 @@ INSERT INTO noteful_folders
 ;
 
 INSERT INTO noteful_notes
-    (name, folderId)
+    (name, folder_id, content)
     VALUES
-        ('test name 1', 1),
-        ('test name 2', 2),
-        ('test name 3', 3)
+        ('test name 1', 1, 'test content fdkvner'),
+        ('test name 2', 2, 'test content nfkrenvoen'),
+        ('test name 3', 3, 'test content nruveoendvut')
 ;
